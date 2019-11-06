@@ -6,6 +6,8 @@
 	display: flex;
 	justify-content: space-between;
 	margin-left: 2%;
+	bottom: 3%; /* puts to bottom of page */
+	position: fixed; /* puts to bottom of page */
 }
 
 .nav-bar {

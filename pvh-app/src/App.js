@@ -17,6 +17,7 @@ function App() {
   return (
     <div className="App">
       <p>
+        <h1> PVH APP </h1>
         <NavBar />
         <BrowserRouter>
           <Switch>

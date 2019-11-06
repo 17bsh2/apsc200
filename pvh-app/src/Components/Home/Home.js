@@ -10,7 +10,13 @@ class Home extends React.Component {
 	}
 
 	render() {
-		return <div>Home </div>;
+		return (
+			<div>
+				Broken Elements <br />
+				Course of Action: None needed <br />
+				Danger: X% <br />
+			</div>
+		);
 	}
 }
 
