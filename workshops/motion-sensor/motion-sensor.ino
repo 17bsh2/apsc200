@@ -4,7 +4,7 @@ void setup() {
 
 long i = 0;
 void loop() {
-  i++;
+  i+= 2;
   Serial.print(i);
   Serial.print(": ");
   Serial.println(digitalRead(13));
