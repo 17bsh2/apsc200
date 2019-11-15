@@ -1,0 +1,10 @@
+int buzzerPin = 3; //Define buzzerPin
+
+void setup() {
+  pinMode(buzzerPin, OUTPUT); //Set buzzerPin as output
+}
+
+void loop() {
+  tone(buzzerPin, 329.63, 300); //Beep every 500 milliseconds
+  delay(500);
+}
